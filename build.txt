@@ -1,3 +1,4 @@
 author = Psycho135
 version = 0.1
 displayName = TTM
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*

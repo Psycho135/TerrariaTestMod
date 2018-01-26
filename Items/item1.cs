@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace test.Items
+namespace TerrariaTestMod.Items
 {
 	public class Item1 : ModItem
 	{
