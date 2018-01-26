@@ -23,6 +23,7 @@ namespace TerrariaTestMod.Weapons
             item.value = 10000;
             item.rare = 2;
             item.autoReuse = true;
+            item.useTurn = true;
         }
         public override void AddRecipes()
         {
