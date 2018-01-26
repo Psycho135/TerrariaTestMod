@@ -1,38 +1,24 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TerrariaTestMod.Items
+namespace test.Items
 {
-	public class item1 : ModItem
+	public class Item1 : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("item1");
-			Tooltip.SetDefault("This is a modded sword.");
+			DisplayName.SetDefault("Item1");
+			Tooltip.SetDefault("starting material");
 		}
 		public override void SetDefaults()
 		{
-			item.damage = 50;
-			item.melee = true;
-			item.width = 40;
-			item.height = 40;
-			item.useTime = 20;
+			item.width = 13;
+			item.height = 18;
+			item.useTime = 5;
 			item.useAnimation = 20;
 			item.useStyle = 1;
-			item.knockBack = 6;
-			item.value = 10000;
-			item.rare = 2;
-			item.UseSound = SoundID.Item1;
-			item.autoReuse = true;
+			item.value = 10;
+			item.rare = 0;
 		}
-
-		public override void AddRecipes()
-		{
-			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.DirtBlock, 10);
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.SetResult(this);
-			recipe.AddRecipe();
-		}
-	}
+    }
 }
