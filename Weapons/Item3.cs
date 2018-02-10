@@ -32,7 +32,7 @@ namespace TerrariaTestMod.Weapons
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(mod, "Item1");
+            recipe.AddIngredient(mod, "SpiritFlame");
             recipe.AddTile(TileID.WorkBenches);
             recipe.SetResult(this);
             recipe.AddRecipe();

@@ -3,13 +3,14 @@ using Terraria.ModLoader;
 
 namespace TerrariaTestMod.Items
 {
-	public class Item1 : ModItem
+	public class SpiritFlame : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Item1");
-			Tooltip.SetDefault("starting material");
+			DisplayName.SetDefault("Spirit Flame");
+			Tooltip.SetDefault("The essence of life.");
 		}
+
 		public override void SetDefaults()
 		{
 			item.width = 13;

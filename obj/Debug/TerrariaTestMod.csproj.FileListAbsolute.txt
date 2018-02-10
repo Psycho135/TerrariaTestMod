@@ -9,3 +9,14 @@ C:\Users\Emilis\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMo
 C:\Users\Emilis\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\obj\Debug\TerrariaTestMod.csproj.CoreCompileInputs.cache
 C:\Users\Emilis\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\obj\Debug\TerrariaTestMod.dll
 C:\Users\Emilis\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\obj\Debug\TerrariaTestMod.pdb
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\bin\Debug\TerrariaTestMod.dll
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\bin\Debug\TerrariaTestMod.pdb
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\bin\Debug\Microsoft.Xna.Framework.Xact.dll
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\bin\Debug\Terraria.exe
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\obj\Debug\TerrariaTestMod.csprojResolveAssemblyReference.cache
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\obj\Debug\TerrariaTestMod.csproj.CoreCompileInputs.cache
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\obj\Debug\TerrariaTestMod.dll
+C:\Users\Vartotojas\Documents\My Games\Terraria\ModLoader\Mod Sources\TerrariaTestMod\obj\Debug\TerrariaTestMod.pdb

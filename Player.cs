@@ -10,7 +10,7 @@ namespace TerrariaTestMod
         public override void SetupStartInventory(IList<Item> items)
         {
             Item item = new Item();
-            item.SetDefaults(mod.ItemType("Item1"));
+            item.SetDefaults(mod.ItemType("SpiritFlame"));
             item.stack = 1;
             items.Add(item);
         }
