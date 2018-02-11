@@ -7,12 +7,12 @@ namespace TerrariaTestMod.Weapons
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Balanced Bow");
-            Tooltip.SetDefault("Pretty good");
+            DisplayName.SetDefault("Abyss Bow");
+            Tooltip.SetDefault("A precious metal fused with the essence of demons");
         }
         public override void SetDefaults()
         {
-            item.damage = 50;
+            item.damage = 24;
             item.ranged = true;
             item.width = 18;
             item.height = 18;
@@ -31,11 +31,33 @@ namespace TerrariaTestMod.Weapons
         }
         public override void AddRecipes()
         {
-            ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(mod, "SpiritFlame");
-            recipe.AddTile(TileID.WorkBenches);
-            recipe.SetResult(this);
-            recipe.AddRecipe();
+            ModRecipe recipePlDe = new ModRecipe(mod);
+            recipePlDe.AddIngredient(ItemID.PlatinumBow);
+            recipePlDe.AddIngredient(ItemID.DemonBow);
+            recipePlDe.AddTile(TileID.Anvils);
+            recipePlDe.SetResult(this);
+            recipePlDe.AddRecipe();
+
+            ModRecipe recipePlCr = new ModRecipe(mod);
+            recipePlCr.AddIngredient(ItemID.PlatinumBow);
+            recipePlCr.AddIngredient(ItemID.TendonBow);
+            recipePlCr.AddTile(TileID.Anvils);
+            recipePlCr.SetResult(this);
+            recipePlCr.AddRecipe();
+
+            ModRecipe recipeGlCr = new ModRecipe(mod);
+            recipeGlCr.AddIngredient(ItemID.GoldBow);
+            recipeGlCr.AddIngredient(ItemID.TendonBow);
+            recipeGlCr.AddTile(TileID.Anvils);
+            recipeGlCr.SetResult(this);
+            recipeGlCr.AddRecipe();
+
+            ModRecipe recipeGlDe = new ModRecipe(mod);
+            recipeGlDe.AddIngredient(ItemID.GoldBow);
+            recipeGlDe.AddIngredient(ItemID.DemonBow);
+            recipeGlDe.AddTile(TileID.Anvils);
+            recipeGlDe.SetResult(this);
+            recipeGlDe.AddRecipe();
         }
     }
 }

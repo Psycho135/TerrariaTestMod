@@ -7,12 +7,12 @@ namespace TerrariaTestMod.Weapons
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Balanced Book");
-            Tooltip.SetDefault("Pretty good");
+            DisplayName.SetDefault("Abyss Book");
+            Tooltip.SetDefault("A book that contains magic of the underworld");
         }
         public override void SetDefaults()
         {
-            item.damage = 50;
+            item.damage = 21;
             item.magic = true;
             item.width = 18;
             item.height = 18;
@@ -32,10 +32,12 @@ namespace TerrariaTestMod.Weapons
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(mod, "SpiritFlame");
-            recipe.AddTile(TileID.WorkBenches);
+            recipe.AddIngredient(ItemID.WaterBolt);
+            recipe.AddRecipeGroup("Demonite or Crimtane", 10);
+            recipe.AddTile(TileID.Bookcases);
             recipe.SetResult(this);
             recipe.AddRecipe();
+
         }
     }
 }
