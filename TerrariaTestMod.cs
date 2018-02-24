@@ -40,10 +40,10 @@ namespace TerrariaTestMod
             RecipeGroup.RegisterGroup("Gold or Platinum", GoldPlatinumGroup);
 
             RecipeGroup DemoniteCrimtaneGroup = new RecipeGroup(() => Lang.misc[37] + " Demonite or Crimtane", new int[]
-{
+            {
                 ItemID.DemoniteBar,
                 ItemID.CrimtaneBar
-});
+            });
             RecipeGroup.RegisterGroup("Demonite or Crimtane", DemoniteCrimtaneGroup);
         }
     }

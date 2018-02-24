@@ -8,12 +8,12 @@ namespace TerrariaTestMod.Weapons
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Tree Sword");
-            Tooltip.SetDefault("Crafted from the hardest branches of wood.");
+            Tooltip.SetDefault("Crafted from the hardest branches of the World Tree.");
         }
 
         public override void SetDefaults()
         {
-            item.damage = 25;
+            item.damage = 20;
             item.melee = true;
             item.width = 18;
             item.height = 18;
